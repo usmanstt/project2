@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Spartan:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        body{
+            margin: 0px;
+            background-image: url(./bg-pattern-top-desktop.svg);
+            background-repeat: no-repeat;
+            background-position-x: left;
+        }
+    h1{
+        color: hsl(300, 43%, 22%);
+        margin-left: 100px;
+        margin-top: 100px;
+        font-size: 30px;
+        font-weight: 700;
+        font-family: 'Spartan', sans-serif;
+        
+    }
+    .container2{
+        display: flex;
+    }
+    .cont3{
+        height: 30px;
+        width: 400px;
+        background-color: hsl(300, 24%, 96%);
+        margin-top: 110px;
+        margin-left: 250px;
+        padding-top: 10px;
+        padding-left: 30px;
+        border-radius: 10px;
+    }
+    .cont4{
+        height: 30px;
+        width: 400px;
+        background-color: hsl(300, 24%, 96%);
+        margin-top: 20px;
+        margin-left: 300px;
+        padding-top: 10px;
+        padding-left: 30px;
+        border-radius: 10px;
+        
+    }
+    .cont5{
+        height: 30px;
+        width: 400px;
+        background-color: hsl(300, 24%, 96%);
+        margin-top: 20px;
+        margin-left: 350px;
+        padding-top: 10px;
+        padding-left: 30px;
+        border-radius: 10px;
+    }
+    b{
+        margin-left: 20px;
+        /* margin-top: 10px; */
+        font-family: 'Spartan', sans-serif;
+        color: hsl(300, 43%, 22%);
+        font-size: 15px;
+    }
+    .info{
+        position: absolute;
+        margin-top: 220px;     
+        margin-left: 100px;   
+        font-family: 'Spartan', sans-serif;
+        color: hsl(300, 8%, 57%);
+        font-size: 15px;
+        line-height: 1.6;
+    }
+    .container{
+        background-image: url(./bg-pattern-bottom-desktop.svg);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        height: 100vh;
+        
+    }
+    .box1{
+        height: 200px;
+        width: 300px;
+        background-color: hsl(300, 34%, 26%);
+        margin-left: 100px;
+        margin-top: 80px;
+        border-radius: 10px;
+        display: flex;
+    }
+    .box2{
+        height: 200px;
+        width: 300px;
+        background-color: hsl(300, 34%, 26%);
+        margin-left: 50px;
+        margin-top: 100px;
+        border-radius: 10px;
+        display: flex;
+    }
+    .boxes{
+        display: flex;
+        
+    }
+    .box3{
+        height: 200px;
+        width: 300px;
+        background-color: hsl(300, 34%, 26%);
+        margin-left: 50px;
+        margin-top: 120px;
+        border-radius: 10px;
+        display: flex;
+    }
+    .imgprof{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    h4{
+        padding-left: 90px;
+        padding-top: 28px;
+        font-family: 'Spartan', sans-serif;
+        color: hsl(300, 24%, 96%);
+        font-size: 12px;
+        position: absolute;
+    }
+    h6{
+        margin-top: 60px;
+        margin-left: 90px;
+        font-size: 12px;
+        font-family: 'Spartan', sans-serif;
+        color: hsl(300, 8%, 57%);
+        position: absolute;
+    }    
+    .cortoninfo{
+        margin-left: -40px;
+        font-size: 10px;
+        font-family:'Spartan', sans-serif;
+        margin-top: 100px;
+        color: hsl(300, 21%, 87%);
+        line-height: 1.6;
+    }
+    .imgproff{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    .irne{
+        padding-left: 90px;
+        padding-top: 28px;
+        font-family: 'Spartan', sans-serif;
+        color: hsl(300, 24%, 96%);
+        font-size: 12px;
+        position: absolute;
+    }
+    .irnee{
+        margin-top: 60px;
+        margin-left: 90px;
+        font-size: 12px;
+        font-family: 'Spartan', sans-serif;
+        color: hsl(300, 8%, 57%);
+        position: absolute;
+    }    
+    .irneinfo{
+        margin-left: -40px;
+        font-size: 10px;
+        font-family:'Spartan', sans-serif;
+        margin-top: 100px;
+        color: hsl(300, 21%, 87%);
+        line-height: 1.6;
+        
+    }
+    .imgprofff{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    .Anne{
+        padding-left: 90px;
+        padding-top: 28px;
+        font-family: 'Spartan', sans-serif;
+        color: hsl(300, 24%, 96%);
+        font-size: 12px;
+        position: absolute;
+    }
+    .Annee{
+        margin-top: 60px;
+        margin-left: 90px;
+        font-size: 12px;
+        font-family: 'Spartan', sans-serif;
+        color: hsl(300, 8%, 57%);
+        position: absolute;
+    }    
+    .anneinfo{
+        margin-left: -40px;
+        font-size: 10px;
+        font-family:'Spartan', sans-serif;
+        margin-top: 100px;
+        color: hsl(300, 21%, 87%);
+        line-height: 1.6;
+        
+    }
+    @media screen and (max-width:425px){
+
+        body{
+            margin: 0px;
+            background-image: url(./bg-pattern-top-mobile.svg);
+            background-repeat: no-repeat;
+            background-position-x: left;
+        }
+    .h1{
+        display: block;
+        margin-left: 20px; 
+        font-weight: 400;
+        font-size: large;
+        text-align: center;
+    }
+    .info{
+        margin-top: 0px;
+        position: relative;
+        font-size: 13px;
+        text-align: center;
+        margin-left: 2px;
+    }
+    b{
+        margin-left: -110px;
+        font-size: 11px;
+        vertical-align: -20px;
+        
+    }
+    .container2{
+        display: block;
+    }
+    .cont3{
+        padding-left: 50px;
+        margin-left: 50px;
+        width: 250px;
+        letter-spacing: 2px;
+        line-height: 30px;
+        height: 50px;
+        display: block;
+        
+    }
+    .cont4{
+        padding-left: 50px;
+        margin-left: 50px;
+        width: 250px;
+        letter-spacing: 2px;
+        line-height: 30px;
+        height: 50px;
+        display: block;
+    }
+    .cont5{
+        padding-left: 50px;
+        margin-left: 50px;
+        width: 250px;
+        letter-spacing: 2px;
+        line-height: 30px;
+        height: 50px;
+        display: block;
+    }
+    .boxes{
+        display: block;
+    }
+    .box1{
+        margin-left: 50px;
+        width: 300px;
+    }
+    .box2{
+        margin-top: 10px;
+        width: 300px;
+    }
+    .box3{
+        margin-top: 10px;
+        width: 300px;
+    }
+    .boxes{
+        background-image: url(./bg-pattern-bottom-mobile.svg);
+        background-repeat: no-repeat;
+        background-position-y: bottom;
+        background-position-x: right;
+    }
+
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container2">
+             <h1>10,000 of our</br> users love our</br> products.</h1> 
+             <p class="info"> We only provide great products combined with excellent</br> customer service.See what our satisfied customers are</br> saying about our services. 
+             </p>
+             <div>
+                 <div class="cont3">
+                     <img src="./icon-star.svg"></img>
+                     <img src="./icon-star.svg"></img>
+                     <img src="./icon-star.svg"></img>
+                     <img src="./icon-star.svg"></img>
+                     <img src="./icon-star.svg"></img>
+                     <b>Rated 5 Stars in Reviews</b>
+                 </div>
+                 <div class="cont4">
+                    <img src="./icon-star.svg"></img>
+                    <img src="./icon-star.svg"></img>
+                    <img src="./icon-star.svg"></img>
+                    <img src="./icon-star.svg"></img>
+                    <img src="./icon-star.svg"></img>
+                    <b>Rated 5 Stars in Reports Guru</b>
+                 </div>
+                 <div class="cont5">
+                    <img src="./icon-star.svg"></img>
+                    <img src="./icon-star.svg"></img>
+                    <img src="./icon-star.svg"></img>
+                    <img src="./icon-star.svg"></img>
+                    <img src="./icon-star.svg"></img>
+                    <b>Rated 5 Stars in Best Tech</b>
+                 </div>    
+             </div>    
+        </div>
+       
+        <div class="boxes">
+            <div class="box1"> 
+                <img class="imgprof" src="./image-colton.jpg" alt="">
+                <h4>Colton Smith</h4>
+                <h6>Verified Buyer</h6>
+                <p class="cortoninfo">"We needed the same printed design as</br> the one we had ordered a week prior.
+                    Not</br> only did they find the original order, but</br> we also received it in time.
+                    Excellent!"</p>
+            
+            </div>
+            <div class="box2"> 
+                <img class="imgproff" src="./image-irene.jpg" alt="">
+                <h4 class="irne">Irene Roberts</h4>
+                <h6 class="irnee">Verified Buyer</h6>
+                <p class="irneinfo">"Customer service is always excellent and</br> very quick turn around. Completely</br>
+                    delighted with the simplicity of the</br> purchase and the speed of delivery."</p>
+
+            </div>
+            <div class="box3"> 
+                <img class="imgprofff" src="./image-anne.jpg" alt="">
+                <h4 class="Anne">Anne Wallace </h4>
+                <h6 class="Annee">Verified Buyer</h6>
+                <p class="anneinfo">"Put an order with this company and can</br> only praise them for the very high</br>
+                    standard. Will definitely use them again</br> and recommend them to everyone!"</p>
+
+            </div>
+        </div>
+        
+
+        
+    </div>
+    
+
+</body>
+</html>
